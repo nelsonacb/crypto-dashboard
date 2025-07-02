@@ -1,4 +1,4 @@
-import { DashboardLayout } from "@/components/dashboard-layout";
+import { DashboardLayout } from "@/components/DashboardLayout";
 import { AnalysisPage } from "@/components/analysis/AnalysisPage";
 
 export const metadata = {

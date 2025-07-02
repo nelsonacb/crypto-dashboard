@@ -3,8 +3,8 @@
 import { Menu, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { ModeToggle } from "@/components/mode-toggle";
-import { Logo } from "@/components/logo";
+import { ModeToggle } from "@/components/ModeToggle";
+import { Logo } from "@/components/Logo";
 import { useCryptoStore } from "@/store/crypto-store";
 import { HeaderProps } from "@/interfaces";
 

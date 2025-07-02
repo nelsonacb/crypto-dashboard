@@ -1,5 +1,5 @@
-import { DashboardLayout } from "@/components/dashboard-layout"
-import { CryptoDashboard } from "@/components/crypto-dashboard"
+import { DashboardLayout } from "@/components/DashboardLayout"
+import { CryptoDashboard } from "@/components/CryptoDashboard"
 
 export default function Home() {
   return (

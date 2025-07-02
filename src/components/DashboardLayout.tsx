@@ -3,10 +3,10 @@
 import type React from "react";
 
 import { useState } from "react";
-import { Sidebar } from "@/components/sidebar";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
-import { Banner } from "@/components/banner";
+import { Sidebar } from "@/components/Sidebar";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { Banner } from "@/components/Banner";
 import { DashboardLayoutProps } from "@/interfaces";
 
 export const DashboardLayout = ({ children }: DashboardLayoutProps) => {

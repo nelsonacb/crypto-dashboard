@@ -5,7 +5,7 @@ import { useCryptoStore } from "@/store/crypto-store";
 import { CryptoTable } from "@/components/crypto-table";
 import { CryptoCards } from "@/components/crypto-cards";
 import { CryptoChart } from "@/components/crypto-chart";
-import { StatsCards } from "@/components/stats-cards";
+import { StatsCards } from "@/components/StatsCards";
 import { Pagination } from "@/components/pagination";
 import { Button } from "@/components/ui/button";
 import { RefreshCw } from "lucide-react";
