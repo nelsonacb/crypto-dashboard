@@ -8,7 +8,7 @@ import { GlobalStats } from "@/components/markets/GlobalStats";
 import { DominanceChart } from "@/components/markets/DominanceChart";
 import { MarketTrendChart } from "@/components/markets/MarketTrendChart";
 import { SectorCards } from "@/components/markets/SectorCards";
-import { LoadingSkeleton } from "@/components/Loader";
+import { LoadingSkeleton } from "@/components/loader";
 
 export const MarketsPage = () => {
   const [marketData, setMarketData] = useState<MarketData | null>(null);

@@ -4,7 +4,7 @@ import { Menu, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ModeToggle } from "@/components/ModeToggle";
-import { Logo } from "@/components/Logo";
+import { Logo } from "@/components/logo";
 import { useCryptoStore } from "@/store/crypto-store";
 import { HeaderProps } from "@/interfaces";
 
