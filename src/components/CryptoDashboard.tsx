@@ -2,11 +2,11 @@
 
 import { useEffect } from "react";
 import { useCryptoStore } from "@/store/crypto-store";
-import { CryptoTable } from "@/components/crypto-table";
-import { CryptoCards } from "@/components/crypto-cards";
-import { CryptoChart } from "@/components/crypto-chart";
-import { StatsCards } from "@/components/stats-cards";
-import { Pagination } from "@/components/pagination";
+import { CryptoTable } from "@/components/CryptoTable";
+import { CryptoCards } from "@/components/CryptoCards";
+import { CryptoChart } from "@/components/CryptoChart";
+import { StatsCards } from "@/components/StatsCards";
+import { Pagination } from "@/components/Pagination";
 import { Button } from "@/components/ui/button";
 import { RefreshCw } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
