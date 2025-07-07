@@ -20,7 +20,7 @@ export const DominanceChart = ({ data }: DominanceChartProps) => (
                 outerRadius={80}
                 fill="#8884d8"
                 dataKey="value"
-                label={({ name, value }) => `${name}: ${value.toFixed(1)}%`}
+                label={({ name, value }) => `${name}: ${value?.toFixed(1) ?? 0}%`}
               >
                 {data.map((entry, index) => (
                   <Cell key={`cell-${index}`} fill={entry.color} />
