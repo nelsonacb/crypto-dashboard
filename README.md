@@ -1,4 +1,5 @@
 Cryptocurrency Dashboard
+
 ![Project Screenshot o Demo](./public//preview.png)
 
 A modern cryptocurrency dashboard built with Next.js 15, featuring real-time market data visualization, responsive tables, and dark mode support. Fetches data from the CoinGecko API with manual refresh capabilities.
@@ -42,41 +43,6 @@ Next.js API Routes - Server endpoints for API calls
 Deployment
 Vercel (recomendado) o Netlify
 
-📂 Project Structure
-text
-crypto-dashboard/
-├── app/
-│ ├── layout.tsx # Root layout with providers
-│ ├── page.tsx # Main dashboard page
-│ ├── api/
-│ │ └── crypto/
-│ │ └── route.ts # API endpoint for CoinGecko calls
-│ ├── components/
-│ │ ├── dashboard/
-│ │ │ ├── market-overview.tsx # Market summary cards
-│ │ │ ├── crypto-table.tsx # Main data table
-│ │ │ ├── refresh-button.tsx # Manual refresh component
-│ │ │ └── search-filter.tsx # Search and filter controls
-│ │ ├── ui/
-│ │ │ ├── button.tsx # Shadcn button
-│ │ │ ├── card.tsx # Shadcn card
-│ │ │ ├── table.tsx # Shadcn table
-│ │ │ └── theme-toggle.tsx # Dark/light mode switch
-│ │ └── charts/
-│ │ └── price-chart.tsx # Price visualization
-├── lib/
-│ ├── api/
-│ │ └── coingecko.ts # CoinGecko API client
-│ ├── utils/
-│ │ ├── formatters.ts # Currency and number formatting
-│ │ └── cache.ts # Data caching utilities
-│ └── types/
-│ └── crypto.ts # TypeScript interfaces
-├── hooks/
-│ ├── use-crypto-data.ts # Custom hook for crypto data
-│ └── use-theme.ts # Theme management
-└── public/
-└── screenshot.png # Project screenshot
 🚀 Getting Started
 Prerequisites
 Node.js 18.17 or later
